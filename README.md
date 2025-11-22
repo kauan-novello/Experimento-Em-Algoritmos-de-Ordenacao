@@ -42,3 +42,13 @@ gcc -o experimento main.c -lm
 ./experimento
 
 # Resultados salvos em resultados.txt
+```
+
+## 📊 Conclusões Principais
+- **TimSort** é o grande vencedor para dados parcialmente ordenados
+- **Quick Sort** precisa de randomização para evitar O(n²)
+- **Merge Sort** é o mais confiável - sempre O(n log n)
+- **Insertion Sort** é excelente para arrays pequenos ou quase ordenados
+- **Bubble Sort** deve ser evitado em produção - sempre lento
+- **Selection Sort** faz poucas movimentações mas muitas comparações
+- **Heap Sort** é consistente mas não aproveita dados ordenados

@@ -1,0 +1,382 @@
+=== EXPERIMENTO DE ALGORITMOS DE ORDENAÇÃO ===
+
+
+========== Bubble Sort ==========
+
+--- Tamanho do array: 1000 elementos ---
+
+Cenário: Array já ordenado
+  Tempo: 0.001352 s
+  Comparações: 499500
+  Movimentações: 0
+
+Cenário: Array ordenado ao contrário
+  Tempo: 0.002837 s
+  Comparações: 499500
+  Movimentações: 1498500
+
+Cenário: Array com valores aleatórios
+  Tempo: 0.002574 s
+  Comparações: 499500
+  Movimentações: 738597
+
+--- Tamanho do array: 5000 elementos ---
+
+Cenário: Array já ordenado
+  Tempo: 0.033391 s
+  Comparações: 12497500
+  Movimentações: 0
+
+Cenário: Array ordenado ao contrário
+  Tempo: 0.068948 s
+  Comparações: 12497500
+  Movimentações: 37492500
+
+Cenário: Array com valores aleatórios
+  Tempo: 0.062696 s
+  Comparações: 12497500
+  Movimentações: 19189812
+
+--- Tamanho do array: 10000 elementos ---
+
+Cenário: Array já ordenado
+  Tempo: 0.131662 s
+  Comparações: 49995000
+  Movimentações: 0
+
+Cenário: Array ordenado ao contrário
+  Tempo: 0.275679 s
+  Comparações: 49995000
+  Movimentações: 149985000
+
+Cenário: Array com valores aleatórios
+  Tempo: 0.260148 s
+  Comparações: 49995000
+  Movimentações: 75353073
+
+
+========== Insertion Sort ==========
+
+--- Tamanho do array: 1000 elementos ---
+
+Cenário: Array já ordenado
+  Tempo: 0.000007 s
+  Comparações: 999
+  Movimentações: 1998
+
+Cenário: Array ordenado ao contrário
+  Tempo: 0.001704 s
+  Comparações: 499500
+  Movimentações: 501498
+
+Cenário: Array com valores aleatórios
+  Tempo: 0.000856 s
+  Comparações: 246786
+  Movimentações: 247796
+
+--- Tamanho do array: 5000 elementos ---
+
+Cenário: Array já ordenado
+  Tempo: 0.000032 s
+  Comparações: 4999
+  Movimentações: 9998
+
+Cenário: Array ordenado ao contrário
+  Tempo: 0.043149 s
+  Comparações: 12497500
+  Movimentações: 12507498
+
+Cenário: Array com valores aleatórios
+  Tempo: 0.021750 s
+  Comparações: 6281726
+  Movimentações: 6286737
+
+--- Tamanho do array: 10000 elementos ---
+
+Cenário: Array já ordenado
+  Tempo: 0.000062 s
+  Comparações: 9999
+  Movimentações: 19998
+
+Cenário: Array ordenado ao contrário
+  Tempo: 0.183064 s
+  Comparações: 49995000
+  Movimentações: 50014998
+
+Cenário: Array com valores aleatórios
+  Tempo: 0.093931 s
+  Comparações: 25127676
+  Movimentações: 25137689
+
+
+========== Selection Sort ==========
+
+--- Tamanho do array: 1000 elementos ---
+
+Cenário: Array já ordenado
+  Tempo: 0.001423 s
+  Comparações: 499500
+  Movimentações: 0
+
+Cenário: Array ordenado ao contrário
+  Tempo: 0.001459 s
+  Comparações: 499500
+  Movimentações: 1500
+
+Cenário: Array com valores aleatórios
+  Tempo: 0.001300 s
+  Comparações: 499500
+  Movimentações: 2979
+
+--- Tamanho do array: 5000 elementos ---
+
+Cenário: Array já ordenado
+  Tempo: 0.030568 s
+  Comparações: 12497500
+  Movimentações: 0
+
+Cenário: Array ordenado ao contrário
+  Tempo: 0.031928 s
+  Comparações: 12497500
+  Movimentações: 7500
+
+Cenário: Array com valores aleatórios
+  Tempo: 0.030774 s
+  Comparações: 12497500
+  Movimentações: 14949
+
+--- Tamanho do array: 10000 elementos ---
+
+Cenário: Array já ordenado
+  Tempo: 0.121154 s
+  Comparações: 49995000
+  Movimentações: 0
+
+Cenário: Array ordenado ao contrário
+  Tempo: 0.127221 s
+  Comparações: 49995000
+  Movimentações: 15000
+
+Cenário: Array com valores aleatórios
+  Tempo: 0.122280 s
+  Comparações: 49995000
+  Movimentações: 29973
+
+
+========== Merge Sort ==========
+
+--- Tamanho do array: 1000 elementos ---
+
+Cenário: Array já ordenado
+  Tempo: 0.000094 s
+  Comparações: 5044
+  Movimentações: 9976
+
+Cenário: Array ordenado ao contrário
+  Tempo: 0.000127 s
+  Comparações: 4932
+  Movimentações: 9976
+
+Cenário: Array com valores aleatórios
+  Tempo: 0.000172 s
+  Comparações: 8724
+  Movimentações: 9976
+
+--- Tamanho do array: 5000 elementos ---
+
+Cenário: Array já ordenado
+  Tempo: 0.000622 s
+  Comparações: 32004
+  Movimentações: 61808
+
+Cenário: Array ordenado ao contrário
+  Tempo: 0.000536 s
+  Comparações: 29804
+  Movimentações: 61808
+
+Cenário: Array com valores aleatórios
+  Tempo: 0.000849 s
+  Comparações: 55227
+  Movimentações: 61808
+
+--- Tamanho do array: 10000 elementos ---
+
+Cenário: Array já ordenado
+  Tempo: 0.001173 s
+  Comparações: 69008
+  Movimentações: 133616
+
+Cenário: Array ordenado ao contrário
+  Tempo: 0.001122 s
+  Comparações: 64608
+  Movimentações: 133616
+
+Cenário: Array com valores aleatórios
+  Tempo: 0.001701 s
+  Comparações: 120446
+  Movimentações: 133616
+
+
+========== Quick Sort ==========
+
+--- Tamanho do array: 1000 elementos ---
+
+Cenário: Array já ordenado
+  Tempo: 0.003419 s
+  Comparações: 499500
+  Movimentações: 1501497
+
+Cenário: Array ordenado ao contrário
+  Tempo: 0.002248 s
+  Comparações: 499500
+  Movimentações: 751497
+
+Cenário: Array com valores aleatórios
+  Tempo: 0.000096 s
+  Comparações: 10856
+  Movimentações: 16581
+
+--- Tamanho do array: 5000 elementos ---
+
+Cenário: Array já ordenado
+  Tempo: 0.080816 s
+  Comparações: 12497500
+  Movimentações: 37507497
+
+Cenário: Array ordenado ao contrário
+  Tempo: 0.053386 s
+  Comparações: 12497500
+  Movimentações: 18757497
+
+Cenário: Array com valores aleatórios
+  Tempo: 0.000650 s
+  Comparações: 80158
+  Movimentações: 146037
+
+--- Tamanho do array: 10000 elementos ---
+
+Cenário: Array já ordenado
+  Tempo: 0.334236 s
+  Comparações: 49995000
+  Movimentações: 150014997
+
+Cenário: Array ordenado ao contrário
+  Tempo: 0.230816 s
+  Comparações: 49995000
+  Movimentações: 75014997
+
+Cenário: Array com valores aleatórios
+  Tempo: 0.001217 s
+  Comparações: 146234
+  Movimentações: 224892
+
+
+========== Heap Sort ==========
+
+--- Tamanho do array: 1000 elementos ---
+
+Cenário: Array já ordenado
+  Tempo: 0.000151 s
+  Comparações: 17583
+  Movimentações: 29124
+
+Cenário: Array ordenado ao contrário
+  Tempo: 0.000137 s
+  Comparações: 15965
+  Movimentações: 24948
+
+Cenário: Array com valores aleatórios
+  Tempo: 0.000185 s
+  Comparações: 16818
+  Movimentações: 27135
+
+--- Tamanho do array: 5000 elementos ---
+
+Cenário: Array já ordenado
+  Tempo: 0.000942 s
+  Comparações: 112126
+  Movimentações: 182796
+
+Cenário: Array ordenado ao contrário
+  Tempo: 0.000926 s
+  Comparações: 103227
+  Movimentações: 160308
+
+Cenário: Array com valores aleatórios
+  Tempo: 0.001129 s
+  Comparações: 107710
+  Movimentações: 171264
+
+--- Tamanho do array: 10000 elementos ---
+
+Cenário: Array já ordenado
+  Tempo: 0.001981 s
+  Comparações: 244460
+  Movimentações: 395868
+
+Cenário: Array ordenado ao contrário
+  Tempo: 0.002044 s
+  Comparações: 226682
+  Movimentações: 350088
+
+Cenário: Array com valores aleatórios
+  Tempo: 0.002279 s
+  Comparações: 235437
+  Movimentações: 372720
+
+
+========== TimSort ==========
+
+--- Tamanho do array: 1000 elementos ---
+
+Cenário: Array já ordenado
+  Tempo: 0.000040 s
+  Comparações: 3528
+  Movimentações: 6936
+
+Cenário: Array ordenado ao contrário
+  Tempo: 0.000099 s
+  Comparações: 17844
+  Movimentações: 22340
+
+Cenário: Array com valores aleatórios
+  Tempo: 0.000140 s
+  Comparações: 13668
+  Movimentações: 14791
+
+--- Tamanho do array: 5000 elementos ---
+
+Cenário: Array já ordenado
+  Tempo: 0.000288 s
+  Comparações: 25707
+  Movimentações: 47862
+
+Cenário: Array ordenado ao contrário
+  Tempo: 0.000702 s
+  Comparações: 94716
+  Movimentações: 125266
+
+Cenário: Array com valores aleatórios
+  Tempo: 0.000629 s
+  Comparações: 81039
+  Movimentações: 86660
+
+--- Tamanho do array: 10000 elementos ---
+
+Cenário: Array já ordenado
+  Tempo: 0.000641 s
+  Comparações: 56407
+  Movimentações: 105710
+
+Cenário: Array ordenado ao contrário
+  Tempo: 0.001084 s
+  Comparações: 194488
+  Movimentações: 260582
+
+Cenário: Array com valores aleatórios
+  Tempo: 0.001285 s
+  Comparações: 171494
+  Movimentações: 182817
+
+
+=== EXPERIMENTO CONCLUÍDO ===
